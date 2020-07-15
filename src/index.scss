@@ -1,0 +1,159 @@
+//@import "~bootstrap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.page-footer{
+  bottom: 0;
+  background-color: #17a2b8;
+}
+
+footer{
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #3f51b5;
+  padding: 0.5em;
+
+  .footer-copyright{
+    color: white;
+  }
+
+  a{
+    margin: 0.5em;
+  }
+}
+
+.pizzaDescription {
+  flex-direction: column;
+  ul {
+    list-style: none;
+  }
+}
+
+a span{
+  color: rgba(0, 0, 0, 0.54);
+}
+a:hover, a{
+  text-decoration: none;
+}
+
+.tool-bar{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-btn, .cart-btn{
+  display: flex;
+  align-items: center;
+}
+
+.cardWrapper{
+  margin: 0 auto;
+  max-width: 34vw;
+  margin-top: 3vw;
+}
+
+.main{
+  flex: 1 0 auto;
+}
+
+.content{
+  padding-top: 70px;
+  min-height: 90vmin;
+}
+
+
+.table100 {
+  background-color: #fff;
+}
+
+table {
+  width: 80vw;
+  margin: 0 auto;
+  border-spacing: 0 1em;
+}
+
+tbody{
+  min-height: 200px;
+}
+
+th, td {
+  font-weight: unset;
+  width: calc(100% / 6);
+  text-align: center;
+}
+
+.table100 {
+  position: relative;
+  padding-top: 20px;
+}
+
+.table100.ver4 {
+}
+
+.table100.ver4 th {
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #4272d7;
+  line-height: 1.4;
+
+  background-color: transparent;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.table100.ver4 tbody td{
+  padding-left: 7px;
+}
+
+.table100.ver4 td {
+  font-family: Lato-Regular;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.4;
+}
+
+.table100.ver4 .table100-body tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.nav-bar{
+  top:0;
+  position: fixed;
+  width: 100vw;
+  z-index: 5;
+}
+
+.amount{
+  max-width: 40px;
+}
+
+.price-changer{
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 1rem 0 0;
+}
